@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--To ensure proper rendering and touch zooming-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-3.3.6-dist/css/normalize.css" rel="stylesheet" />
+    <style>
+        #dp
+        {
+            width:25%;
+            height:25%;
+        }
+        #p1, #p2, #p3, #p4, #p5
+        {
+            color: whitesmoke;
+            height: 850px;
+            padding-top:300px;
+            padding-bottom:200px;
+        }
+        #p1 img, #p2 img, #p3 img, #p4 img, #p5 img
+        {
+            width: 25%;
+            height: 25%;
+        }
+        #p1
+        {
+            background-color: blueviolet;
+        }
+        #p2
+        {
+            background-color: chocolate;
+        }
+        #p3
+        {
+            background-color: darkcyan;
+        }
+        #p4
+        {
+            background-color: darkolivegreen;
+        }
+        #p5
+        {
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body class="scaffolding.less" data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="row">
+    <div id="header">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="col-sm-8 navbar-header">
+                    <img src="Images/dp.png" class="img-circle" alt="display pic" id="dp" /> <br />
+                    <a href="#" class="navbar-brand">Anny's Portfolio</a>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="navbar-nav nav text-right">
+                        <li> <a href="home2.html/#home">Home</a> </li>
+                        <li> <a href="home2.html/#about">About</a> </li>
+                        <!-- dropdown menu
+                        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#p1">Project1</a> </li>
+                                <li> <a href="#p2">Project2</a> </li>
+                                <li> <a href="#p3">Project3</a> </li>
+                                <li> <a href="#p4">Project4</a> </li>
+                            </ul>
+                        </li>
+                        -->
+                        <li> <a href="home2.html/#portfolio">Portfolio</a> </li>
+                        <li> <a href="home2.html/#contact">Contact</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navigation Bar Code completed -->
+    <!-- portfolio details -->
+    <div class="row text-center">
+        <div class="row" id="p1">
+            <div class="col-sm-12">
+                <img src="Images/b1.jpg" alt="First Project" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                    <h1>PROJECT # 01</h1>
+                    <h3><small>Tagline</small></h3>
+                    <p>Description</p>
+                    <a href="" class="btn btn-primary">VIEW</a>
+                    <a href="home2.html/#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="p2">
+            <div class="col-sm-12">
+                <img src="Images/b2.jpg" alt="Second Project" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                    <h1>PROJECT # 02</h1>
+                    <h3><small>Tagline</small></h3>
+                    <p>Description</p>
+                    <a href="" class="btn btn-primary">VIEW</a>
+                    <a href="home2.html/#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="p3">
+            <div class="col-sm-12">
+                <img src="Images/b3.jpg" alt="Third Project" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                    <h1>PROJECT # 03</h1>
+                    <h3><small>Tagline</small></h3>
+                    <p>Description</p>
+                    <a href="" class="btn btn-primary">VIEW</a>
+                    <a href="home2.html/#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="p4">
+            <div class="col-sm-12">
+                <img src="Images/b4.jpg" alt="Fourth Project" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                    <h1>PROJECT # 04</h1>
+                    <h3><small>Tagline</small></h3>
+                    <p>Description</p>
+                    <a href="" class="btn btn-primary">VIEW</a>
+                    <a href="home2.html/#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="p5">
+            <div class="col-sm-12">
+                <img src="Images/b5.jpg" alt="Fifth Project" class="img-thumbnail" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                    <h1>PROJECT # 05</h1>
+                    <h3><small>Tagline</small></h3>
+                    <p>Description</p>
+                    <a href="" class="btn btn-primary">VIEW</a>
+                    <a href="home2.html/#home" class="btn btn-danger">BACK TO HOME</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id = "footer">
+        <div class="col-sm-8 text-left">
+            <p> Copyright 2016, Anny. All Rights Reserved. </p>
+        </div>
+        <div class="col-sm-3 text-right">
+            <p> Get in Touch:
+                <a href="mailto:quratulann_iqbal@hotmail.com" target="_blank">
+                    <img src="Images/email.jpg" alt="Email Me" width = "15%" height="15%" class="img-circle" />
+                </a>
+                <a href="https://github.com/AnnyIqbal" target="_blank">
+                    <img src="Images/github.png" alt="GitHub Profile" width = "13%" height="13%" class="img-circle"  />
+                </a>
+                <a href="https://pk.linkedin.com/in/qurat-ul-ann-iqbal-aa4a4938" target="_blank">
+                    <img src="Images/linkedin.jpg" alt="LinkedIn Profile" width = "15%" height="15%" class="img-rounded"  />
+                </a> </p>
+        </div>
+        <div class="col-sm-1 text-center" id="backtotop">
+            <a href="#header">
+                <img src="Images/caret.png" alt="Back to Top" width = "65%" height="65%" />
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
