@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Simple Calculator </title>
+</head>
+
+<body>
+
+<script>
+
+//Ass 17: calculator
+var num1 = prompt("Enter first operand");
+var num2 = prompt("Enter second operand");
+var operation = prompt("Enter operation (+,-,*,/,%)");
+
+switch(operation)
+{
+case "+":
+{
+var sum = parseInt(num1) + parseInt(num2);
+document.write(num1 + " + " + num2 + " = " + sum);
+break;
+}
+case "-":
+{
+var diff = parseInt(num1) - parseInt(num2);
+document.write(num1 + " - " + num2 + " = " + diff);
+break;
+}
+case "*":
+{
+var prod = parseInt(num1) * parseInt(num2);
+document.write(num1 + " * " + num2 + " = " + prod);
+break;
+}
+case "/":
+{
+var quot = parseInt(num1) / parseInt(num2);
+document.write(num1 + " / " + num2 + " = " + quot);
+break;
+}
+case "%":
+{
+var rem = parseInt(num1) % parseInt(num2);
+document.write(num1 + " % " + num2 + " = " + rem);
+break;
+}
+default:
+{
+document.write("Invalid operation");
+break;
+}
+}
+</script>
+
+</body>
+</html>

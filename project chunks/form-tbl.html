@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title> Events: Link </title>
+
+    <script>      
+        function colorChange(x)
+        {
+            document.getElementById(x).style.backgroundColor = 'cyan';
+        }
+        function saveData()
+        {
+	var nam = document.getElementById('name').value;
+	var rol = document.getElementById('roll').value;
+	var ema = document.getElementById('email').value;
+	var cou = document.getElementById('course').value;
+
+	if(nam === "" || rol === "" || ema === "")
+            alert("Please enter complete data");
+	
+	var x = "<tr> <td>" + nam + "</td>" +
+	            "<td>" + rol + "</td>" +
+		    "<td>" + ema + "</td>" +
+		    "<td>" + cou + "</td>" +
+		 "</tr>";
+	document.getElementById('j').innerHTML += x;
+	document.getElementById('name').value = '';
+	document.getElementById('roll').value = '';
+	document.getElementById('email').value = '';
+}
+	
+    </script>
+</head>
+<body>
+ <!-- Task 6a
+  <h1> Thomas Edison </h1>
+  <img src = "d.png" width = "200" height = "200" onMouseOver = "src = 'hi.png' " />
+  -->
+
+  <!-- Task 6b
+  <h1> Mobile Phone Lookup </h1>
+  <img src = "d.png" width = "200" height = "200" onMouseOver = "width = '300'; height = '300' " onMouseOut = " width = '200'; height = '200' "/>
+   -->
+<!-- Task 8 -->
+  <form>
+      <fieldset>
+          <legend> Add Student </legend>
+          Student Name: <br />
+          <input type="text" id = "name" onClick = "colorChange('name');" />
+          <br /><br />
+          Roll No.: <br />
+          <input type="number" id = "roll" onClick = "colorChange('roll');" />
+          <br /><br />
+          Email ID: <br />
+          <input type = "email" id = 'email' required = "required" onClick = "colorChange('email');" />
+          <br /><br />
+          Course: <br />
+          <select id = "course" onClick = "colorChange('course');">
+              <option>Module A</option>
+              <option>Module B</option>
+          </select>
+          <br /><br />
+          <input type = "button" value = "Save" onClick = "saveData();" />
+      </fieldset>
+  </form>
+
+  <table border = "2" id = "j">
+      <tr>
+          <th colspan = "4" style = "background-color:yellow">Students Information</th>
+      </tr>
+      <tr>
+          <th width = "200">Name</th>
+          <th width = "200">Roll No.</th>
+          <th width = "200">Email</th>
+          <th width = "200">Course</th>
+      </tr>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Objects </title>
+</head>
+<body>
+<script>
+//task 8
+
+var m = {
+		Student_Name : prompt("Enter Name?"),
+		Student_ID : prompt("Enter ID?"),
+		Subject_HTML: prompt("Enter Marks in HTML?"),
+		Student_CSS : prompt("Enter Marks in CSS?"),
+		Student_JAVASCRIPT : prompt("Enter Marks in JAVASCRIPT?"),
+		Student_BOOTSTRAP :  prompt("Enter Marks in BOOTSTRAP?"),
+		//Total_Marks : parseInt(this.Subject_HTML) + parseInt(this.Student_CSS) + parseInt(this.Student_JAVASCRIPT) +parseInt(this.Student_BOOTSTRAP) 
+	};
+
+m.Total_Marks = parseInt(m.Subject_HTML) + parseInt(m.Student_CSS) + parseInt(m.Student_JAVASCRIPT) +parseInt(m.Student_BOOTSTRAP);
+
+alert(m.Total_Marks);
+
+</script>
+</body>
+</html>
