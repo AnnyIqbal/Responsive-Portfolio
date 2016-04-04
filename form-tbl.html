@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
+  h1
+  {
+    text-align:center;
+    color: blue;
+  }
+  #f1
+  {
+    width:30%;
+    margin: 10px 390px 10px 390px;
+  }
+  #t1
+  {
+    margin: 0px 150px 0px 150px;
+  }
+  p
+  {
+    text-align:center;
+  }
 
 </style>
 <head>
@@ -10,7 +28,7 @@
     <script>      
         function colorChange(x)
         {
-            document.getElementById(x).style.backgroundColor = 'cyan';
+            document.getElementById(x).style.backgroundColor = 'pink';
         }
         function saveData()
         {
@@ -20,7 +38,10 @@
 	var cou = document.getElementById('course').value;
 
 	if(nam === "" || rol === "" || ema === "")
+	{
             alert("Please enter complete data");
+	    return false;
+        }
 	
 	var x = "<tr> <td>" + nam + "</td>" +
 	            "<td>" + rol + "</td>" +
@@ -36,16 +57,12 @@
     </script>
 </head>
 <body>
- <!-- Task 6a
-  <h1> Thomas Edison </h1>
-  <img src = "d.png" width = "200" height = "200" onMouseOver = "src = 'hi.png' " />
-  -->
 
-  <!-- Task 6b
-  <h1> Mobile Phone Lookup </h1>
-  <img src = "d.png" width = "200" height = "200" onMouseOver = "width = '300'; height = '300' " onMouseOut = " width = '200'; height = '200' "/>
-   -->
 <!-- Task 8 -->
+<h1> STUDENT DATABASE </h1>
+<p> Fill in the following field to get enrolled! </p>
+<br />
+<div id="f1">
   <form>
       <fieldset>
           <legend> Add Student </legend>
@@ -67,7 +84,9 @@
           <input type = "button" value = "Save" onClick = "saveData();" />
       </fieldset>
   </form>
-
+</div>
+<br /><br />
+<div id="t1">
   <table border = "2" id = "j">
       <tr>
           <th colspan = "4" style = "background-color:yellow">Students Information</th>
@@ -79,6 +98,6 @@
           <th width = "200">Course</th>
       </tr>
   </table>
-
+</div>
 </body>
 </html>
