@@ -40,16 +40,18 @@
     </style>
     <script>
 
-            var digit = document.getElementsByClassName("btn-primary");
-            var operator = document.getElementsByClassName("btn-success");
-            var on = document.getElementsByClassName("btn-info");
-            var off = document.getElementsByClassName("btn-danger");
-            var equal = document.getElementsByClassName("btn-warning");
+        var get = document.getElementsByClassName("btn");
+        var digit = document.getElementsByClassName("btn-primary");
+        var operator = document.getElementsByClassName("btn-success");
+        var on = document.getElementsByClassName("btn-info");
+        var off = document.getElementsByClassName("btn-danger");
+        var equal = document.getElementsByClassName("btn-warning");
 
-            function fetch(x)
-            {
-                var show = digit[x].innerHTML;
-                document.getElementById("screen").innerHTML = show;
+        function fetch(x)
+        {
+            var show = digit[x].innerHTML;
+            screen.className = (show === "OFF") ? ".off" : ".on";
+            document.getElementById("screen").innerHTML = show;
 
 //                if(show === "ON")
 //                {
