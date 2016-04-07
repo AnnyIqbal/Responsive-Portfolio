@@ -81,13 +81,12 @@
     }
 
     var alpha = [], index = [];
-    var a1, a2, c1, c2, tile = 1;
+    var a1, a2, c1, c2, cls, tile = 1;
 
 function flip(x) {
     index.push(cell[x]);
     alpha.push(cell[x].innerHTML);
     cell[x].className = 'show';
-    var t = tile;
     var t1 = tile - 1;
     var t2 = tile - 2;
     if(tile%2 === 1)
@@ -101,7 +100,7 @@ function flip(x) {
         a1 = alpha[t1];
         c2 = index[t2];
         a2 = alpha[t2];
-        var cls = match(a1,a2);     //cls stores the value returned by match()
+        cls = match(a1,a2);     //cls stores the value returned by match()
         c1.className = cls;    //set className to cls' value
         c2.className = cls;
     }
@@ -109,7 +108,7 @@ function flip(x) {
 }
 
 function match(a,b) {
-    alert();    //ye na kren to 2nd flip show ni hota qk bht fast className = show se hide hojata hai
+    alert("hi");    //ye na kren to 2nd flip show ni hota qk bht fast className = show se hide hojata hai
     if(a === b)
         return 'show';  //match is working if matched, className = show
     else
