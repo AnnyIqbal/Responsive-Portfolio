@@ -20,11 +20,24 @@
             width:25%;
             height:25%;
         }
+        #header a
+        {
+            color: black;
+        }
+        #header a:hover
+        {
+            text-decoration: underline;
+        }
         body
         {
             background-image: url(Images/b14.jpg);
             background-size: cover; /* To cover the body */
             background-repeat: no-repeat;
+        }
+        h3
+        {
+            font-family: "Comic Sans MS",Serif;
+            color: #d58512;
         }
     </style>
 </head>
@@ -34,26 +47,28 @@
             <!-- Navigation Bar -->
             <nav class="navbar navbar-fixed-top">
                 <div class="container-fluid">
-                    <div class="navbar-header">
+                    <div class="col-sm-8 navbar-header">
                         <img src="Images/dp.png" class="img-circle" alt="display pic" id="dp" /> <br />
-                        <a href="#" class="navbar-brand">Anny's Portfolio</a>
+                        <a href="#" class="navbar-brand"><strong>Anny's Portfolio</strong></a>
                     </div>
-                    <ul class="navbar-nav nav text-right">
-                        <li> <a href="home2.html/#home">Home</a> </li>
-                        <li> <a href="home2.html/#about">About</a> </li>
-                        <!-- dropdown menu
-                        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span> </a>
-                            <ul class="dropdown-menu">
-                                <li> <a href="#p1">Project1</a> </li>
-                                <li> <a href="#p2">Project2</a> </li>
-                                <li> <a href="#p3">Project3</a> </li>
-                                <li> <a href="#p4">Project4</a> </li>
-                            </ul>
-                        </li>
-                        -->
-                        <li> <a href="home2.html/#portfolio">Portfolio</a> </li>
-                        <li> <a href="home2.html/#contact">Contact</a> </li>
-                    </ul>
+                    <div class="col-sm-4">
+                        <ul class="navbar-nav nav text-right">
+                            <li> <a href="home2.html#home">Home</a> </li>
+                            <li> <a href="home2.html#about">About</a> </li>
+                            <!-- dropdown menu
+                            <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio<span class="caret"></span> </a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="#p1">Project1</a> </li>
+                                    <li> <a href="#p2">Project2</a> </li>
+                                    <li> <a href="#p3">Project3</a> </li>
+                                    <li> <a href="#p4">Project4</a> </li>
+                                </ul>
+                            </li>
+                            -->
+                            <li> <a href="home2.html#portfolio">Portfolio</a> </li>
+                            <li> <a href="home2.html#contact">Contact</a> </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
