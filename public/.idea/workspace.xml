@@ -2,72 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12293bfd-30ee-4030-b5c2-8aa9d2864f9a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Responsive Portfolio.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/b14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/b8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/b9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/babyevan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/blu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/btrfly.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/caret.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/css1ScreenShot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/db.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/email.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/fb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/game.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/glasses.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/jenware.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/ladyb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/linkedin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/navbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/pink.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/shirts.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/sky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/thanx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/thx.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/tour.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/travelmate.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/ty.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/form-tbl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jenware.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project chunks/calculator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project chunks/marksheet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project chunks/variable body.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/puzzle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thanks.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home2.html" afterPath="$PROJECT_DIR$/home2.html" />
     </list>
     <ignored path="Responsive Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,34 +24,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="puzzle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/puzzle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3623">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <marker date="1460390780231" expanded="true" signature="936:1000" placeholder="..." />
-              </folding>
+            <state relative-caret-position="1462">
+              <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/projects.html">
+        <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1336">
-              <caret line="173" column="38" selection-start-line="173" selection-start-column="38" selection-end-line="173" selection-end-column="38" />
+            <state relative-caret-position="1298">
+              <caret line="164" column="50" selection-start-line="164" selection-start-column="50" selection-end-line="164" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="thanks.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/thanks.html">
+        <entry file="file://$PROJECT_DIR$/thanks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+            <state relative-caret-position="1190">
+              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculator.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,8 +99,6 @@
         <option value="$PROJECT_DIR$/thanks.html" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/home2.html" />
-        <option value="$PROJECT_DIR$/public/projects.html" />
-        <option value="$PROJECT_DIR$/public/thanks.html" />
       </list>
     </option>
   </component>
@@ -224,20 +179,6 @@
               <option name="myItemId" value="Responsive Portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Responsive Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Responsive Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -264,7 +205,6 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="787" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="js-jscs-nodeInterpreter" value="E:\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -387,12 +327,12 @@
       <workItem from="1460120594590" duration="35000" />
       <workItem from="1460120704099" duration="1741000" />
       <workItem from="1460379656425" duration="3863000" />
-      <workItem from="1460387419762" duration="3377000" />
+      <workItem from="1460387419762" duration="2389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96327000" />
+    <option name="totallyTimeSpent" value="95339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -432,6 +372,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/puzzle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -444,7 +408,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3383">
           <caret line="199" column="78" selection-start-line="199" selection-start-column="78" selection-end-line="199" selection-end-column="78" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -484,7 +451,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3383">
           <caret line="199" column="78" selection-start-line="199" selection-start-column="78" selection-end-line="199" selection-end-column="78" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,7 +494,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
           <caret line="107" column="29" selection-start-line="106" selection-start-column="5" selection-end-line="107" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -564,7 +537,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
           <caret line="107" column="29" selection-start-line="106" selection-start-column="5" selection-end-line="107" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +580,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
           <caret line="107" column="29" selection-start-line="106" selection-start-column="5" selection-end-line="107" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +623,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
           <caret line="107" column="29" selection-start-line="106" selection-start-column="5" selection-end-line="107" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -684,7 +666,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
           <caret line="107" column="29" selection-start-line="106" selection-start-column="5" selection-end-line="107" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -738,7 +723,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4012">
           <caret line="236" column="69" selection-start-line="236" selection-start-column="69" selection-end-line="236" selection-end-column="69" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -772,10 +760,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/puzzle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -792,48 +796,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thanks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/thanks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1336">
-          <caret line="173" column="38" selection-start-line="173" selection-start-column="38" selection-end-line="173" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3623">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="13" />
           <folding>
-            <marker date="1460390780231" expanded="true" signature="936:1000" placeholder="..." />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460389820294" expanded="true" signature="936:1000" placeholder="..." />
           </folding>
         </state>
       </provider>
