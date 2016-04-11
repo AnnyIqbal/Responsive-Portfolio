@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12293bfd-30ee-4030-b5c2-8aa9d2864f9a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Responsive Portfolio.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/Twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/b14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/b8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/b9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/babyevan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/blu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/btrfly.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/caret.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/css1ScreenShot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/db.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/email.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/fb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/game.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/glasses.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/jenware.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/ladyb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/linkedin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/navbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/pink.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/shirts.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/sky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/thanx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/thx.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/tour.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/travelmate.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/ty.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap-3.3.6-dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/box.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/form-tbl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jenware.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project chunks/calculator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project chunks/marksheet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project chunks/variable body.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/puzzle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thanks.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
     </list>
     <ignored path="Responsive Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,10 +26,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3623">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <marker date="1460390780231" expanded="true" signature="936:1000" placeholder="..." />
+                <marker date="1460392452644" expanded="true" signature="961:1025" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -103,7 +38,7 @@
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1336">
+            <state relative-caret-position="1050">
               <caret line="173" column="38" selection-start-line="173" selection-start-column="38" selection-end-line="173" selection-end-column="38" />
               <folding />
             </state>
@@ -144,6 +79,7 @@
         <option value="$PROJECT_DIR$/home2.html" />
         <option value="$PROJECT_DIR$/public/projects.html" />
         <option value="$PROJECT_DIR$/public/thanks.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -387,12 +323,12 @@
       <workItem from="1460120594590" duration="35000" />
       <workItem from="1460120704099" duration="1741000" />
       <workItem from="1460379656425" duration="3863000" />
-      <workItem from="1460387419762" duration="3377000" />
+      <workItem from="1460387419762" duration="4046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96327000" />
+    <option name="totallyTimeSpent" value="96996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -822,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1336">
+        <state relative-caret-position="1050">
           <caret line="173" column="38" selection-start-line="173" selection-start-column="38" selection-end-line="173" selection-end-column="38" />
           <folding />
         </state>
@@ -830,10 +766,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3623">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="493">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1460390780231" expanded="true" signature="936:1000" placeholder="..." />
+            <marker date="1460392452644" expanded="true" signature="961:1025" placeholder="..." />
           </folding>
         </state>
       </provider>
