@@ -30,6 +30,7 @@
         {
             width: 50px;
             height: 50px;
+            margin: 2px 1px 2px 1px;
         }
         .nopad
         {
@@ -42,6 +43,7 @@
         .on
         {
             background-color: paleturquoise;
+            text-align: right;
         }
         .off
         {
@@ -138,51 +140,63 @@
     <div class="container center-block" id="body">
         <br /><br />
         <div class="row">
+            <div class="col-sm-3"></div>
             <!--screen of calculator -->
             <div class="col-sm-6 panel panel-default">
-                <div class="panel-body" id="screen"></div>
+                <div class="panel-body text-right" id="screen"></div>
             </div>
+            <div class="col-sm-3"></div>
         </div><br />
         <div class="row">
+            <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <button type="button" class="btn btn-info btn-lg nopad" onclick="fetch(0);">ON</button>
                 <button type="button" class="btn btn-success btn-lg" onclick="fetch(1);">%</button>
                 <button type="button" class="btn btn-success btn-lg" onclick="fetch(2);">^</button>
                 <button type="button" class="btn btn-danger btn-lg nopad" onclick="fetch(3);">OFF</button>
             </div>
-        </div><br />
+            <div class="col-sm-3"></div>
+        </div>
         <div class="row">
+            <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(4);">1</button>
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(5);">2</button>
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(6);">3</button>
                 <button type="button" class="btn btn-success btn-lg" onclick="fetch(7);">÷</button>
             </div>
-        </div><br />
+            <div class="col-sm-3"></div>
+        </div>
         <div class="row">
+            <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(8);">4</button>
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(9);">5</button>
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(10);">6</button>
                 <button type="button" class="btn btn-success btn-lg" onclick="fetch(11);">*</button>
             </div>
-        </div><br />
+            <div class="col-sm-3"></div>
+        </div>
         <div class="row">
+            <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(12);">7</button>
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(13);">8</button>
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(14);">9</button>
                 <button type="button" class="btn btn-success btn-lg" onclick="fetch(15);">-</button>
             </div>
-        </div><br />
+            <div class="col-sm-3"></div>
+        </div>
         <div class="row">
+            <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(16);">0</button>
                 <button type="button" class="btn btn-primary btn-lg" onclick="fetch(17);">.</button>
                 <button type="button" class="btn btn-warning btn-lg" onclick="fetch(18);">=</button>
                 <button type="button" class="btn btn-success btn-lg" onclick="fetch(19);">+</button>
             </div>
-        </div><br />
+            <div class="col-sm-3"></div>
+        </div><br>
     </div>
 </body>
 </html>
