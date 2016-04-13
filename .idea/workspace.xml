@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12293bfd-30ee-4030-b5c2-8aa9d2864f9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/calculator.html" afterPath="$PROJECT_DIR$/code/calculator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/projects.html" afterPath="$PROJECT_DIR$/code/projects.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/.idea/Responsive Portfolio.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/b14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/babyevan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/blu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/btrfly.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/calculator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/caret.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/css1ScreenShot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/email.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/fb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/game.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/glasses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/jenware.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/linkedin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/pink.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/shirts.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/sky.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/thanx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/tour.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/Images/travelmate.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/box.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/calculator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/form-tbl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/jenware.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/projects.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/puzzle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code/thanks.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firebase.json" afterPath="$PROJECT_DIR$/firebase.json" />
     </list>
     <ignored path="Responsive Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,68 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shirts.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/Images/shirts.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jenware.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/jenware.html">
+      <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coding/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calculator.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/calculator.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-551">
-              <caret line="216" column="74" selection-start-line="216" selection-start-column="74" selection-end-line="216" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/projects.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="91" column="9" selection-start-line="88" selection-start-column="5" selection-end-line="91" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thanks.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/thanks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="box.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/box.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+            <state relative-caret-position="123">
+              <caret line="191" column="36" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -124,6 +102,7 @@
         <option value="$PROJECT_DIR$/code/index.html" />
         <option value="$PROJECT_DIR$/code/projects.html" />
         <option value="$PROJECT_DIR$/code/calculator.html" />
+        <option value="$PROJECT_DIR$/coding/projects.html" />
       </list>
     </option>
   </component>
@@ -213,7 +192,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
+              <option name="myItemId" value="coding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,12 +354,12 @@
       <workItem from="1460528109154" duration="4255000" />
       <workItem from="1460537929627" duration="1879000" />
       <workItem from="1460543471113" duration="3038000" />
-      <workItem from="1460552638467" duration="1403000" />
+      <workItem from="1460552638467" duration="2020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111751000" />
+    <option name="totallyTimeSpent" value="112368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -473,24 +452,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coding/index.html" />
     <entry file="file://$PROJECT_DIR$/coding/jenware.html" />
-    <entry file="file://$PROJECT_DIR$/coding/projects.html" />
-    <entry file="file://$PROJECT_DIR$/code/Images/shirts.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/box.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/jenware.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -523,6 +488,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/jenware.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/Images/shirts.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coding/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="191" column="36" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
           <folding />
         </state>
       </provider>
