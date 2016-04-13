@@ -51,27 +51,86 @@
     <script>
 
         var get = document.getElementsByClassName("btn");
+        var a, b, operator, show = '';
 
         function fetch(x)
         {
-            var show = get[x].innerHTML;
-            document.getElementById("screen").innerHTML = show;
+            show = get[x].innerHTML;
 
-//                if(show === "ON")
-//                {
-//                    screen.className = "on";
-//                    document.getElementById("screen").innerHTML = '0';
-//                    if(show >= 0 && show <= 9)
-//                       document.getElementById("screen").innerHTML = show;
-
-//                }
-//                else if(show === "OFF")
-//                        screen.className = "off";
-//                        document.getElementById("screen").innerHTML = '';
-
-
-
+            if((show >= 0 && show <= 9) || show === '.' )
+            {
+                document.getElementById("screen").innerHTML += show;
             }
+            else {
+                if (show === "ON") {
+                    document.getElementById("screen").className = "on";
+                    document.getElementById("screen").innerHTML = 0;
+                    setTimeout(function(){
+                        document.getElementById("screen").innerHTML = '';
+                    }, 500);
+                }
+                else if (show === "OFF") {
+                    document.getElementById("screen").className = "off";
+                    document.getElementById("screen").innerHTML = '';
+                }
+                else if((show === "+")||(show === "-")||(show === "*")||(show === "÷")||(show === "%")||(show === "^")) {
+                    a = document.getElementById("screen").textContent;
+                    document.getElementById("screen").innerHTML = show;
+                    operator = show;
+                    setTimeout(function(){
+                        document.getElementById("screen").innerHTML = '';
+                    }, 500);
+                }
+                else if(show === "=") {
+                    b = document.getElementById("screen").textContent;
+                    setTimeout(function(){
+                        document.getElementById("screen").innerHTML = '';
+                    }, 500);
+
+                    a = parseFloat(a);
+                    b = parseFloat(b);
+                    switch(operator)
+                    {
+                        case '+':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = a+b;
+                            }, 200);
+                            break;
+                        case '-':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = a-b;
+                            }, 200);
+                            break;
+                        case '*':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = a*b;
+                            }, 200);
+                            break;
+                        case '÷':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = a/b;
+                            }, 200);
+                            break;
+                        case '%':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = (a/b)*100;
+                            }, 200);
+                            break;
+                        case '^':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = power(a,b);
+                            }, 200);
+                            break;
+                        default:
+                            alert("error");
+                    }
+                }
+            }
+        }
+
+        function power(x,y) {
+            return Math.pow(a,b);
+        }
 
     </script>
 </head>
@@ -88,7 +147,7 @@
             <div class="col-sm-6">
                 <button type="button" class="btn btn-info btn-lg nopad" onclick="fetch(0);">ON</button>
                 <button type="button" class="btn btn-success btn-lg" onclick="fetch(1);">%</button>
-                <button type="button" class="btn btn-success btn-lg" onclick="fetch(2);">√</button>
+                <button type="button" class="btn btn-success btn-lg" onclick="fetch(2);">^</button>
                 <button type="button" class="btn btn-danger btn-lg nopad" onclick="fetch(3);">OFF</button>
             </div>
         </div><br />
