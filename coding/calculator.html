@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CALCULATOR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--To ensure proper rendering and touch zooming-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- bootstrap cdn links -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- bootstrap cdn links ended -->
+
+    <style>
+        #body
+        {
+            background-color: black;
+            width: 38%;
+            margin: 5% 30% 5% 30%;
+        }
+        button
+        {
+            width: 50px;
+            height: 50px;
+            margin: 2px 1px 2px 1px;
+        }
+        .nopad
+        {
+            padding: 0px;
+        }
+        #screen
+        {
+            height: 50px;
+        }
+        .on
+        {
+            background-color: paleturquoise;
+            text-align: right;
+        }
+        .off
+        {
+            background-color: darkgray;
+        }
+    </style>
+    <script>
+
+        var get = document.getElementsByClassName("btn");
+        var a, b, operator, show = '';
+
+        function fetch(x)
+        {
+            show = get[x].innerHTML;
+
+            if((show >= 0 && show <= 9) || show === '.' )
+            {
+                document.getElementById("screen").innerHTML += show;
+            }
+            else {
+                if (show === "ON") { //when on is clicked
+                    document.getElementById("screen").className = "on";
+                    document.getElementById("screen").innerHTML = 0;
+                    setTimeout(function(){
+                        document.getElementById("screen").innerHTML = '';
+                    }, 500);
+                }
+                else if (show === "OFF") { // when off is clicked
+                    document.getElementById("screen").className = "off";
+                    document.getElementById("screen").innerHTML = '';
+                }
+                // when an operator is clicked
+                else if((show === "+")||(show === "-")||(show === "*")||(show === "÷")||(show === "%")||(show === "^")) {
+                    a = document.getElementById("screen").textContent;
+                    document.getElementById("screen").innerHTML = show;
+                    operator = show;
+                    setTimeout(function(){
+                        document.getElementById("screen").innerHTML = '';
+                    }, 1000);
+                }
+                else if(show === "=") {
+                    b = document.getElementById("screen").textContent;
+                    setTimeout(function(){
+                        document.getElementById("screen").innerHTML = '';
+                    }, 2000);
+
+                    a = parseFloat(a);
+                    b = parseFloat(b);
+                    switch(operator)
+                    {
+                        case '+':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = a+b;
+                            }, 200);
+                            break;
+                        case '-':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = a-b;
+                            }, 200);
+                            break;
+                        case '*':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = a*b;
+                            }, 200);
+                            break;
+                        case '÷':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = a/b;
+                            }, 200);
+                            break;
+                        case '%':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = (a/b)*100;
+                            }, 200);
+                            break;
+                        case '^':
+                            setTimeout(function(){
+                                document.getElementById("screen").innerHTML = power(a,b);
+                            }, 200);
+                            break;
+                        default:
+                            alert("error");
+                    }
+                }
+            }
+        }
+
+        function power(x,y) {
+            return Math.pow(a,b);
+        }
+
+    </script>
+</head>
+<body class="scaffolding.less" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="container-fluid center-block" id="body">
+        <br /><br />
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <!--screen of calculator -->
+            <div class="col-sm-6 panel panel-default">
+                <div class="panel-body text-right" id="screen"></div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div><br />
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-info btn-lg nopad" onclick="fetch(0);">ON</button>
+                <button type="button" class="btn btn-success btn-lg" onclick="fetch(1);">%</button>
+                <button type="button" class="btn btn-success btn-lg" onclick="fetch(2);">^</button>
+                <button type="button" class="btn btn-danger btn-lg nopad" onclick="fetch(3);">OFF</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(4);">1</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(5);">2</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(6);">3</button>
+                <button type="button" class="btn btn-success btn-lg" onclick="fetch(7);">÷</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(8);">4</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(9);">5</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(10);">6</button>
+                <button type="button" class="btn btn-success btn-lg" onclick="fetch(11);">*</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(12);">7</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(13);">8</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(14);">9</button>
+                <button type="button" class="btn btn-success btn-lg" onclick="fetch(15);">-</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(16);">0</button>
+                <button type="button" class="btn btn-primary btn-lg" onclick="fetch(17);">.</button>
+                <button type="button" class="btn btn-warning btn-lg" onclick="fetch(18);">=</button>
+                <button type="button" class="btn btn-success btn-lg" onclick="fetch(19);">+</button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div><br><br>
+    </div>
+</body>
+</html>
