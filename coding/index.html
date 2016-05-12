@@ -1,28 +1,24 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Responsive Portfolio</title>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--To ensure proper rendering and touch zooming-->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
     <script src='https://cdn.firebase.com/js/client/2.4.2/firebase.js'>
         var Firebase = require("firebase");
-    </script> <!--firebase cdn -->
+    </script> <!--firebase cdn for deployment-->
 
     <!-- bootstrap cdn links -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">-->
-
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- bootstrap cdn links ended -->
-
+    <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <style>
         #body
         {
@@ -50,19 +46,6 @@
             background-repeat: no-repeat;
             font-size: larger;
         }
-        #about {
-            background-image: url(Images/DeathtoStock_Wired4.jpg);
-            background-size: 100% 100%; /* Image will stretch to cover entire content area */
-            background-repeat: no-repeat;
-        }
-        .padd {
-            padding: 2%;
-            margin: 0 3%;
-            background-color: rgba(0,0,0,0.5);
-        }
-        .padd ul {
-            list-style-type: none;
-        }
         #portfolio {
             background-image: url(Images/portfoliogrey.jpg);
             background-size: 100% 100%; /* Image will stretch to cover entire content area */
@@ -75,6 +58,19 @@
         #portfolio .row div {
             box-sizing: border-box;
             box-snap: center;
+        }
+        #about {
+            background-image: url(Images/DeathtoStock_Wired4.jpg);
+            background-size: 100% 100%; /* Image will stretch to cover entire content area */
+            background-repeat: no-repeat;
+        }
+        .padd {
+            padding: 2%;
+            margin: 0 3%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .padd ul {
+            list-style-type: square;
         }
         #contact {
             background-image: url(Images/contactgrey.jpg);
@@ -125,7 +121,7 @@
                 width: 1000px;
                 margin: 0 auto;
             }
-        } /* 864 px break point *?
+        } /* 991 px break point *?
     </style>
 </head>
 <body class="scaffolding.less" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -135,121 +131,144 @@
             <nav class="navbar navbar-fixed-top">
                 <div class="container" id="nbar">
 
-                <!-- sir ka code -->
+                    <!-- sir ka code -->
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="glyphicon glyphicon-menu-hamburger"></span>
                         </button>
-                <!-- sir ka code ends -->
+                        <!-- sir ka code ends -->
 
                         <img src="Images/dp.png" class="img-circle" alt="display pic" id="dp" /> <br />
                         <a href="projects.html" class="navbar-brand"><strong>Anny's Portfolio</strong></a>
                     </div>
 
-                <!-- sir ka code -->
+                    <!-- sir ka code -->
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li> <a href="#home" class="btn btn-default navbarMenu">Home</a> </li>
-                            <li> <a href="#about" class="btn btn-default navbarMenu">About</a> </li>
                             <li> <a href="#portfolio" class="btn btn-default navbarMenu">Portfolio</a> </li>
+                            <li> <a href="#about" class="btn btn-default navbarMenu">About</a> </li>
                             <li> <a href="#contact" class="btn btn-default navbarMenu">Contact</a> </li>
+                            <li> <a href="feedback.html" class="btn btn-default navbarMenu">Feedback</a> </li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
-                <!-- sir ka code ends -->
+                    <!-- sir ka code ends -->
 
                 </div><!-- /.container -->
             </nav>
         </div> <!-- /#header -->
 
-            <div id="home" class="row text-right">
-                <div class="col-sm-12">
-                    <br/><br/>
-                    <h1> I'm<strong> QURAT UL ANN </strong></h1>
-                    <h2> A Front-end Web Developer & Designer </h2>
+        <div id="home" class="row text-right">
+            <div class="col-sm-12">
+                <br/><br/>
+                <h1> I'm<strong> QURAT UL ANN </strong></h1>
+                <h2> A Front-end Web Developer & Designer </h2>
+            </div>
+        </div> <!-- /#home -->
+
+        <div class="row text-center" id="portfolio">
+            <h1><em><strong>PORTFOLIO</strong></em></h1>
+            <div class="row">
+                <div class="col-sm-4" id="pr1">
+                    <a href="projects.html#p1"><img src="Images/css1ScreenShot.png" class="img-responsive img-thumbnail center-block" /> </a>
                 </div>
-            </div> <!-- /#home -->
-            <div class="row text-center" id="about">
-                <div class="col-sm-3 padd">
-                    <h2><em><strong>WHO AM I ?</strong></em></h2>
-                    <p> A Front-end Web Developer & Designer </p>
-                    <p> A Computer Science Graduate from KU </p>
-                    <p> An MBA with Marketing as my major subject from KUBS, KU </p>
+
+                <div class="col-sm-4">
+                    <a href="projects.html#p2"><img src="Images/jenware.png" class="img-responsive img-thumbnail center-block" /> </a>
                 </div>
-                <div class="col-sm-3 padd">
-                    <h2><em><strong> WHAT I DO ?</strong></em></h2>
-                    <p> Develop what you need </p>
-                    <p> Design what you want </p>
+
+                <div class="col-sm-4">
+                    <a href="projects.html#p3"><img src="Images/db.png" class="img-responsive img-thumbnail center-block" /> </a>
                 </div>
-                <div class="col-sm-3 padd">
-                    <h2><em><strong> EXPERTISE </strong></em></h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="projects.html#p4"><img src="Images/game.png" class="img-responsive img-thumbnail center-block" /> </a>
+                </div>
+
+                <div class="col-sm-4">
+                    <a href="projects.html#p5"><img src="Images/calculator.png" class="img-responsive img-thumbnail center-block" /> </a>
+                </div>
+
+            </div><br>
+            <a href="projects.html" class="btn btn-primary"> VIEW DETAILS </a>
+        </div> <!-- /#portfolio -->
+
+        <div class="row" id="about">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10 padd">
+                <h2 class="text-center"><em><strong>WHO AM I?</strong></em></h2>
+                <p class="text-center"> You will surely like to get introduced, by now, to the creator of these projects and this stunning portfolio site. </p>
+                <h4 class="text-center"> <em>Time to reveal my identity!</em></h4>
+                <p> Hi Buddies, </p>
+                <h4>This is <em><strong>"Qurat ul Ann Iqbal"</strong></em> from Karachi, Pakistan.</h4>
+                <ul>
+                    <li>A creative Web Designer and Developer</li>
+                    <li>Possessing a Bachelors in Computer Science (BCS)</li>
+                    <li>Having Masters in Business Administration (MBA) with Marketing as a major</li>
+                    <li>Above all, passionate to create eye-catchy, unique and responsive websites</li>
+                </ul>
+                <p>Web designing and development is an art as well as a science; and I'm trying to be the doctor besides being an artist, who not only dreams to but also works hard to achieve doctrate in Web Engineering. </p>
+                <p>Currently, I have all the essential expertise required for client-side development &n designing of a dynamic website. My skill set is comprised of, but not limited to:</p>
+               <div class="col-sm-4">
                     <ul>
                         <li>HTML5</li>
                         <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
                         <li>Git DVCS</li>
                     </ul>
+               </div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Responsive Web Design</li>
+                        <li>Real-Time Database Integration</li>
+                    </ul>
                 </div>
-            </div> <!-- /about -->
-            <div class="row text-center" id="portfolio">
-                <h1><em><strong>PORTFOLIO</strong></em></h1>
-                <div class="row">
-                    <div class="col-sm-4" id="pr1">
-                        <a href="projects.html#p1"><img src="Images/css1ScreenShot.png" class="img-responsive img-thumbnail center-block" /> </a>
-                    </div>
+               <div class="col-sm-4">
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>JSON</li>
+                        <li>etc.</li>
+                    </ul>
+               </div>
+                <h4>The good news is,</h4>
+                <h3 class="text-center"> <em>I'm also available for Freelance work! </em> </h3>
+                <h4 class="text-center">If you have an idea, a project or anything to be developed into a website... </h4>
+                <p class="text-center"> <a class="btn btn-danger" href="#contact">HIRE ME</a> </p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div> <!-- /#about -->
 
-                    <div class="col-sm-4">
-                        <a href="projects.html#p2"><img src="Images/jenware.png" class="img-responsive img-thumbnail center-block" /> </a>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <a href="projects.html#p3"><img src="Images/db.png" class="img-responsive img-thumbnail center-block" /> </a>
-                    </div>
+        <div id="contact">
+            <div class = "row text-center">
+                <div class="col-sm-12">
+                    <h1> <em><strong>SAY HI!</strong></em> </h1>
                 </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <a href="projects.html#p4"><img src="Images/game.png" class="img-responsive img-thumbnail center-block" /> </a>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <form  method="post" role="form" action="thanks.html">
+                    <div class = "col-sm-6 text-center form-group">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" id="name" required placeholder="Name" class="form-control" /> <br />
+
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" id="email" required placeholder="Email" class="form-control" /> <br />
+
+                        <label for="msg" class="sr-only">Message</label>
+                        <textarea rows="5" id="msg" required placeholder="Message" class="form-control"></textarea> <br />
+
+                        <label for="button" class="sr-only">Send</label>
+                        <input type="submit" id="button" value="Send" class="btn btn-success btn-block" onclick = "database();" /> <br />
                     </div>
-
-                    <div class="col-sm-4">
-                        <a href="projects.html#p5"><img src="Images/calculator.png" class="img-responsive img-thumbnail center-block" /> </a>
-                    </div>
-
-                </div><br>
-                <a href="projects.html" class="btn btn-primary"> VIEW DETAILS </a>
-            </div> <!-- /#portfolio -->
-
-            <div id="contact">
-                <div class = "row text-center">
-                    <div class="col-sm-12">
-                        <h1> <em><strong>SAY HI!</strong></em> </h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3"></div>
-                    <form action="thanks.html" method="post" role="form">
-                        <div class = "col-sm-6 text-center form-group">
-                            <label for="name" class="sr-only">Name</label>
-                            <input type="text" id="name" required placeholder="Name" class="form-control" /> <br />
-
-                            <label for="email" class="sr-only">Email</label>
-                            <input type="email" id="email" required placeholder="Email" class="form-control" /> <br />
-
-                            <label for="msg" class="sr-only">Message</label>
-                            <textarea rows="5" id="msg" required placeholder="Message" class="form-control"></textarea> <br />
-
-                            <label for="button" class="sr-only">Send</label>
-                            <input type="submit" id="button" value="Send" class="btn btn-success btn-block" /> <br />
-                        </div>
-                    </form>
-                    <div class="col-sm-3"></div>
-                </div>
-            </div> <!-- /#contact -->
-
-        <div class="row" id = "footer">
+                </form>
+                <div class="col-sm-3"></div>
+            </div>
+        </div> <!-- /#contact -->
+         <div class="row" id = "footer">
             <div class="col-sm-5 text-center" id="t1">
                 <strong> Anny, © 2016. All Rights Reserved. </strong>
             </div>
@@ -260,14 +279,14 @@
 
             <div class="col-sm-1">
                 <a href="mailto:quratulann_iqbal@hotmail.com" target="_blank">
-                     <img src="Images/email.jpg" alt="Email Me" class="img-circle" />
-                 </a>
+                    <img src="Images/email.jpg" alt="Email Me" class="img-circle" />
+                </a>
             </div>
 
             <div class="col-sm-1">
-                 <a href="https://github.com/AnnyIqbal" target="_blank">
-                     <img src="Images/github.png" alt="GitHub Profile" class="img-circle"  />
-                 </a>
+                <a href="https://github.com/AnnyIqbal" target="_blank">
+                    <img src="Images/github.png" alt="GitHub Profile" class="img-circle"  />
+                </a>
             </div>
 
             <div class="col-sm-1">
@@ -288,8 +307,20 @@
                 </a>
             </div>
 
-            </div> <!-- #footer -->
-        </div> <!-- /row -->
-    </div> <!-- /#body -->
+        </div> <!-- #footer -->
+    </div> <!-- /row -->
+</div> <!-- /#body -->
+<script>
+    var myDataRef = new Firebase('https://annyportfolio.firebaseio.com/');
+    function database() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var feedback = document.getElementById("msg").value;
+//            myDataRef.set('User ' + name + ' has an email id : ' + email); // variable set krwaya as data
+//            myDataRef.set({name: name, feedback: feedback}); // variable set krwaya as an object har bar new data replace hoga
+        myDataRef.push({name: name, email: email, feedback: feedback}); //variable me push krwaya object har bar jb koi send p click krega to wo data yahan push hojaega
+    }
+</script>
+
 </body>
 </html>
