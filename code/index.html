@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Responsive Portfolio</title>
@@ -20,6 +20,10 @@
     <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <style>
+        body
+        {
+            overflow-x: hidden; /* removes the scroll bar from x-axis*/
+        }
         #body
         {
             color:floralwhite;
@@ -46,19 +50,6 @@
             background-repeat: no-repeat;
             font-size: larger;
         }
-        #about {
-            background-image: url(Images/DeathtoStock_Wired4.jpg);
-            background-size: 100% 100%; /* Image will stretch to cover entire content area */
-            background-repeat: no-repeat;
-        }
-        .padd {
-            padding: 2%;
-            margin: 0 3%;
-            background-color: rgba(0,0,0,0.5);
-        }
-        .padd ul {
-            list-style-type: none;
-        }
         #portfolio {
             background-image: url(Images/portfoliogrey.jpg);
             background-size: 100% 100%; /* Image will stretch to cover entire content area */
@@ -71,6 +62,19 @@
         #portfolio .row div {
             box-sizing: border-box;
             box-snap: center;
+        }
+        #about {
+            background-image: url(Images/DeathtoStock_Wired4.jpg);
+            background-size: 100% 100%; /* Image will stretch to cover entire content area */
+            background-repeat: no-repeat;
+        }
+        .padd {
+            padding: 2%;
+            margin: 0 3%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .padd ul {
+            list-style-type: square;
         }
         #contact {
             background-image: url(Images/contactgrey.jpg);
@@ -99,7 +103,8 @@
 
         @media screen and (max-width: 768px){    /* for small screens<768px, jb screen ziada se ziada 767px ki ho tb */
             #name, #email, #msg, #button {
-                margin: 0 20px;
+                margin: 0 10%;
+                width: 80%;
             }
             #bs-example-navbar-collapse-1 li { /* navbar's list items */
                 margin: 0 10px;
@@ -107,6 +112,9 @@
             #portfolio a img {
                 height:30%;
                 width:30%;
+            }
+            #about {
+                height: auto; /*chk it then push and deploy if ok */
             }
             #footer img {
                 height:5%;
@@ -121,7 +129,7 @@
                 width: 1000px;
                 margin: 0 auto;
             }
-        } /* 864 px break point *?
+        } /* 991 px break point *?
     </style>
 </head>
 <body class="scaffolding.less" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -149,8 +157,8 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li> <a href="#home" class="btn btn-default navbarMenu">Home</a> </li>
-                            <li> <a href="#about" class="btn btn-default navbarMenu">About</a> </li>
                             <li> <a href="#portfolio" class="btn btn-default navbarMenu">Portfolio</a> </li>
+                            <li> <a href="#about" class="btn btn-default navbarMenu">About</a> </li>
                             <li> <a href="#contact" class="btn btn-default navbarMenu">Contact</a> </li>
                             <li> <a href="feedback.html" class="btn btn-default navbarMenu">Feedback</a> </li>
                         </ul>
@@ -168,29 +176,7 @@
                 <h2> A Front-end Web Developer & Designer </h2>
             </div>
         </div> <!-- /#home -->
-        <div class="row text-center" id="about">
-            <div class="col-sm-3 padd">
-                <h2><em><strong>WHO AM I ?</strong></em></h2>
-                <p> A Front-end Web Developer & Designer </p>
-                <p> A Computer Science Graduate from KU </p>
-                <p> An MBA with Marketing as my major subject from KUBS, KU </p>
-            </div>
-            <div class="col-sm-3 padd">
-                <h2><em><strong> WHAT I DO ?</strong></em></h2>
-                <p> Develop what you need </p>
-                <p> Design what you want </p>
-            </div>
-            <div class="col-sm-3 padd">
-                <h2><em><strong> EXPERTISE </strong></em></h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                    <li>Git DVCS</li>
-                </ul>
-            </div>
-        </div> <!-- /#about -->
+
         <div class="row text-center" id="portfolio">
             <h1><em><strong>PORTFOLIO</strong></em></h1>
             <div class="row">
@@ -218,6 +204,51 @@
             </div><br>
             <a href="projects.html" class="btn btn-primary"> VIEW DETAILS </a>
         </div> <!-- /#portfolio -->
+
+        <div class="row" id="about">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10 padd">
+                <h2 class="text-center"><em><strong>WHO AM I?</strong></em></h2>
+                <p class="text-center"> You will surely like to get introduced, by now, to the creator of these projects and this stunning portfolio site. </p>
+                <h4 class="text-center"> <em>Time to reveal my identity!</em></h4>
+                <p> Hi Buddies, </p>
+                <h4>This is <em><strong>"Qurat ul Ann Iqbal"</strong></em> from Karachi, Pakistan.</h4>
+                <ul>
+                    <li>A creative Web Designer and Developer</li>
+                    <li>Possessing a Bachelors in Computer Science (BCS)</li>
+                    <li>Having Masters in Business Administration (MBA) with Marketing as a major</li>
+                    <li>Above all, passionate to create eye-catchy, unique and responsive websites</li>
+                </ul>
+                <p>Web designing and development is an art as well as a science; and I'm trying to be the doctor besides being an artist, who not only dreams to but also works hard to achieve doctrate in Web Engineering. </p>
+                <p>Currently, I have all the essential expertise required for client-side development &n designing of a dynamic website. My skill set is comprised of, but not limited to:</p>
+               <div class="col-sm-4">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Git DVCS</li>
+                    </ul>
+               </div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Responsive Web Design</li>
+                        <li>Real-Time Database Integration</li>
+                    </ul>
+                </div>
+               <div class="col-sm-4">
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>JSON</li>
+                        <li>etc.</li>
+                    </ul>
+               </div>
+                <h4>The good news is,</h4>
+                <h3 class="text-center"> <em>I'm also available for Freelance work! </em> </h3>
+                <h4 class="text-center">If you have an idea, a project or anything to be developed into a website... </h4>
+                <p class="text-center"> <a class="btn btn-danger" href="#contact">HIRE ME</a> </p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div> <!-- /#about -->
 
         <div id="contact">
             <div class = "row text-center">
@@ -298,6 +329,8 @@
         myDataRef.push({name: name, email: email, feedback: feedback}); //variable me push krwaya object har bar jb koi send p click krega to wo data yahan push hojaega
     }
 </script>
-
+<!--<script>-->
+        <!--document.getElementsByTagName("body").style.width = window.innerWidth;-->
+<!--</script>-->
 </body>
 </html>

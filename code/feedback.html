@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,7 +25,7 @@
             display: flex;
             flex-wrap: wrap;
             font-family: georgia, times, "Times New Roman", serif;
-            background-color: blueviolet;
+            background-color: thistle;
         }
         #dp {
             width:25%;
@@ -43,13 +43,13 @@
             height: 760px;
             width:100%;
             padding-top:200px;
-            padding-bottom:300px;
+            padding-bottom:200px;
         }
         #messages {
-            width:100%;
+            width: inherit;
             padding-top:200px;
-            padding-bottom:300px;
-            background-color: cornflowerblue;
+            padding-bottom:200px;
+            background-color: palegreen;
         }
         #footer {
             color: black;  !important;
@@ -116,8 +116,8 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li> <a href="index.html#home" class="btn btn-default navbarMenu">Home</a> </li>
-                            <li> <a href="index.html#about" class="btn btn-default navbarMenu">About</a> </li>
                             <li> <a href="index.html#portfolio" class="btn btn-default navbarMenu">Portfolio</a> </li>
+                            <li> <a href="index.html#about" class="btn btn-default navbarMenu">About</a> </li>
                             <li> <a href="index.html#contact" class="btn btn-default navbarMenu">Contact</a> </li>
                             <li> <a href="feedback.html" class="btn btn-default navbarMenu">Feedback</a> </li>
                         </ul>
@@ -202,8 +202,8 @@
         var feedback = document.getElementById("msg").value;
         myDataRef.push({name: name, feedback: feedback}); //variable me push krwaya object har bar jb koi send p click krega to wo data yahan push hojaega
     }
-    myDataRef.on('child_added', function(snapshot) {
-        var message = snapshot.val();
+    myDataRef.on('child_added', function(snapshot) { // .on() listens to changes n if koi or update kry to wo changes yahan b reflect hosken screen pe
+        var message = snapshot.val(); //.val() gets the javascript object representation of snapshot
         displayMessage(message.name, message.feedback);
     });
     function displayMessage(nm, fb) {
