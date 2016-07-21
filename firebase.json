@@ -1,9 +1,20 @@
 {
-  "firebase": "annyportfolio",
-  "public": "code",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
+  "hosting": {
+    "public": "code",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }
+// // old code 
+// {
+//   "firebase": "annyportfolio",
+//   "public": "code",
+//   "ignore": [
+//     "firebase.json",
+//     "**/.*",
+//     "**/node_modules/**"
+//   ]
+// }
