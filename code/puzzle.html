@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> LETTER MATCHING PUZZLE </title>
+    <title> Memory Game </title>
 </head>
 <body>
 <h1>MEMORY GAME</h1>
@@ -83,6 +83,7 @@
 
     var alpha = [], index = [];
     var a1, a2, c1, c2, cls, tile = 1;
+    var displayTile = 0;
 
     function flip(x) {
         index.push(cell[x]);
@@ -111,22 +112,27 @@
                     c2.className = cls;
                 }, 1000)
             }
-            else
+            else // if tiles are matched display them
             {
                     c1.className = cls;    //set className to cls' value
                     c2.className = cls;
+                    displayTile++;
             }
 
         }
         tile++;
+        if(displayTile == 8) { // if all tiles are displayed
+            alert("Congrats! You Won..."); // mubarkaaaaaann g!
+        }
     }
 
     function match(a,b) {
-          if(a === b)
+        if(a === b) {
                 return 'show';  //match is working if matched, className = show
+          }
             else
                 return 'hide'; //if not matched, className = hide
-    }
+        }
 
 </script>
 

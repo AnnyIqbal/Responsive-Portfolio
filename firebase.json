@@ -1,6 +1,6 @@
 {
   "firebase": "annyportfolio",
-  "public": "codes",
+  "public": "code",
   "ignore": [
     "firebase.json",
     "**/.*",

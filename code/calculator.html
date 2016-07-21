@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CALCULATOR</title>
+    <title>Calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--To ensure proper rendering and touch zooming-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -57,11 +57,11 @@
 
         function fetch(x)
         {
-            show = get[x].innerHTML;
+            show = get[x].innerHTML; //calculator ki konsi key press hui wo character
 
             if((show >= 0 && show <= 9) || show === '.' )
             {
-                document.getElementById("screen").innerHTML += show;
+                document.getElementById("screen").innerHTML += show; //if its an operand, display on screen
             }
             else {
                 if (show === "ON") { //when on is clicked
@@ -116,7 +116,12 @@
                             break;
                         case '%':
                             setTimeout(function(){
-                                document.getElementById("screen").innerHTML = (a/b)*100;
+                                if(a<=b) {
+                                    document.getElementById("screen").innerHTML = (a/b)*100;
+                                }
+                                else if(a>b) {
+                                    alert("Error: To calculate %, the 1st operand entered must be lesser than or equals to the 2nd!")
+                                }
                             }, 200);
                             break;
                         case '^':
@@ -132,7 +137,7 @@
         }
 
         function power(x,y) {
-            return Math.pow(a,b);
+            return Math.pow(x,y);
         }
 
     </script>
