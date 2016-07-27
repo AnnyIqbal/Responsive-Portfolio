@@ -1,8 +1,9 @@
-﻿            body {
+﻿            #body {
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
                 background-color: #9137FF;
+                padding: 5px 0;
             }
             h1 {
                 font-family: "Times New Roman", Times, sans-serif;
@@ -16,6 +17,7 @@
             #task {
                 padding: 10px;
                 width: 450px;
+                font-size: 16px;
             }
             #task:hover {
                 border-radius: 25px;
@@ -53,4 +55,51 @@
                 height: 44px;
                 width: 44px;
             }
-           
+           /*media queries*/
+           @media screen and (max-width : 760px) {      /*for devices smaller than 760px width*/
+               #body {
+                   height: auto;
+                   width: 100%;
+                   margin: 0 auto;
+                   padding: 2px 0;
+               }
+               form, h1, table {
+                   width: 70%;
+                   margin-left: auto;
+                   margin-right: auto;
+               }
+               #add {
+                   width: 32px;
+                   height: 32px;
+                   font-size: 16px;
+               }
+               #task {
+                   width: 70%;
+                   font-size: 14px;
+                   padding: 5px;
+               }
+               h1 {
+                   font-size: 14px;  
+                   text-transform: uppercase;               
+                   letter-spacing: 1.5px;
+                   word-spacing: 2px;
+                   margin-top: 7px;
+                   margin-bottom: 7px;
+                   padding-top: 5px;
+                   padding-bottom: 5px;
+               }
+               td {
+                   padding: 7px;
+               }
+           }
+           @media screen and (min-width: 1000px) {     /* for larger devices 1000px and more */
+            #body {
+                width: 1000px;
+                margin: 0 auto;
+                padding: 5px 0;
+            }
+            #task {
+                width: 420px;
+                font-size: 16px;
+            }
+        }

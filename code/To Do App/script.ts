@@ -1,23 +1,38 @@
-var job: string, newBox: string; 
-        function addTask(){
-            job = document.getElementById("task").value; // input value assigned to variable 'job'
-            newBox = "<tr>" +
-                        "<td>" + job + "</td>" +
-                        "<td>" +
-                             "<button type='button' class='btn btn-danger' onclick='dlt(this);'>"+
-                                "<span class='glyphicon glyphicon-trash' aria-hidden='true'></span>" + //dlt button
-                             "</button>"+
-                         "</td>" +
-                      "</tr>";    // added new row to table with the input value
-            document.getElementById("taskList").innerHTML += newBox; //adding new task to list
-            document.getElementById("task").value = ''; // removing the filled text field
-        }
 
-        function dlt(z){
-//            alert(z.parentNode.innerHTML); // finally got it, the <td> to be dltd
-//            alert(z.parentNode.parentNode); //<tr> uska parent node mil gya
-            z.parentNode.parentNode.innerHTML = ''; //yahoo urra diaaaa hahahaha
-        }
+function enableButton(): void {
+         document.getElementById("add").removeAttribute("disabled"); 
+}
 
-        // "<td> <button onclick='dlt(this);'>x</button> </td>" + // bootstrap ka danger button use kro circular ya cross wala glyphicon
-                        //"<td onclick='dlt(this);'>X</td>" +
+var input: HTMLElement, job: HTMLInputElement, newBox: string;
+
+function addTask(): void {
+    input = document.getElementById("task"); // input field
+    job = document.getElementById("task").value; // input value assigned to variable 'job'
+
+    if (job.toString().length === 0) { // if input field is empty on submission
+        alert("Please Enter Task!");
+        document.getElementById("add").setAttribute("disabled","disabled"); // disabling the button again
+        input.style.borderColor = "red"; //border color turns red
+        input.focus(); // places cursor in the input field
+    }
+    else {
+    newBox = "<tr>" +
+                "<td>" + job + "</td>" +
+                "<td>" +
+                   "<button type='button' class='btn btn-danger' onclick='dlt(this);'>"+
+                      "<span class='glyphicon glyphicon-trash' aria-hidden='true'></span>" + //dlt button
+                   "</button>"+
+                 "</td>" +
+               "</tr>";    // added new row to table with the input value
+    document.getElementById("taskList").innerHTML += newBox; //adding new task to list
+    input.value = ''; // removing the filled text field
+    input.style.borderColor = "#9137FF"; //border color is reset again
+    document.getElementById("add").setAttribute("disabled","disabled"); // disabling the button again
+    input.focus(); // resetting focus(cursor) to the input field
+    }
+}
+
+  function dlt(z) : void {
+    z.parentNode.parentNode.innerHTML = ''; //deleted the row from where dlt button was clicked
+    document.getElementById("task").focus(); // resetting focus(cursor) to the input field
+}
