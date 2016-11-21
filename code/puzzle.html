@@ -23,7 +23,7 @@
         <td onclick="flip('6');">S</td>
         <td onclick="flip('7');">L</td>
     </tr>
-
+<div id="winner"></div>
     <tr>
         <td onclick="flip('8');">W</td>
         <td onclick="flip('9');">A</td>
@@ -43,18 +43,15 @@
 
 <style scoped>
 
-    .show
-    {
+    .show {
         color: wheat;!important;
     }
 
-    .hide
-    {
+    .hide {
         color: black;
     }
 
-    td
-    {
+    td {
         color: black;
         height: 100px;
         width : 100px;
@@ -62,15 +59,22 @@
         font-size: 300%;
         background-color: black;
     }
-    table
-    {
-        margin: 2% 32% 2% 32%;
+    table {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        /*margin: 2% 32% 2% 32%;*/
     }
-    h1
-    {
+    h1 {
         color: blueviolet;
         text-align: center;
     }
+    div {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 </style>
 
 <script>
@@ -122,8 +126,13 @@
         }
         tile++;
         if(displayTile == 8) { // if all tiles are displayed
-            var wow = "<img src='Images/congu.gif' alt='congrats you won' />"; // animated gif
-            document.write(wow);
+            setTimeout(function() {
+                document.getElementById("winner").innerHTML = "<img src='Images/congu.gif' alt='Congrats! you won.' />";
+            }, 200);
+
+
+            // var wow = "<img src='Images/congu.gif' alt='congrats you won' />"; // animated gif
+            // document.write(wow);
         }
     }
 
